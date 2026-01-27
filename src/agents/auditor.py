@@ -6,6 +6,7 @@ import sys
 import json
 import google.generativeai as genai
 from pathlib import Path
+from src.prompts.system_prompts import AUDITOR_SYSTEM_PROMPT
 
 # Add parent directory to path to import tools
 sys.path.append(str(Path(__file__).parent.parent.parent))
